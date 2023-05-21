@@ -9,3 +9,5 @@ appDiv.innerHTML = `<h1>JS Starterhhhhhhhhh</h1>`;
 
 var textoParrafo = $("#TEXTO").text();
 console.log("Jquery: ",textoParrafo);
+
+$("#TEXTO").html("<h2>Etiqueta H2</h2>");
