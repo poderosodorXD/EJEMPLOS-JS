@@ -7,7 +7,9 @@ import $ from 'jquery';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starterhhhhhhhhh</h1>`;
 
+const numero = 3*4;
+
 var textoParrafo = $("#TEXTO").text();
 console.log("Jquery: ",textoParrafo);
 
-$("#TEXTO").html("<h2>Etiqueta H2</h2>");
+$("#TEXTO").html(`<h2>Etiqueta H2 ${numero}</h2> `);
